@@ -2,6 +2,10 @@ import os
 
 import requests
 import streamlit as st
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Ensure your API URL and key are securely stored
 API_URL = "https://api.x.ai/v1/chat/completions"  # The actual endpoint

@@ -41,6 +41,8 @@ The Streamlit app is set up with the following components:
   - The message is sent to the `send_message` function.
   - The assistant's response is displayed in the chat interface.
 
+`streamlit run app.py`
+
 ### Error Handling
 
 The app includes error handling to manage potential issues, such as:
